@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+}
+
+.grid-row {
+    display: flex;
+    flex: auto;
+}
+
+.grid-cell {
+    display: flex;
+    flex: auto;
+    aspect-ratio: 1/1;
+    border: 1px black solid;
+}
+
+.grid-cell-painted {
+    background-color: red;
+}
+
+.grid-cell-original {
+    background-color: white;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: larger;
+}
+
